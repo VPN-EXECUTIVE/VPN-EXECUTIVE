@@ -17,5 +17,11 @@ chmod +x multipath
 ./multipath
 ```
 
+### Update & Fix Hide Direct Web
+```
+wget https://github.com/VPN-EXECUTIVE/VPN-EXECUTIVE/raw/main/update.sh
+chmod +x update.sh
+./update.sh
+```
 
 ### VPN-EXECUTIVE SINCE 2010

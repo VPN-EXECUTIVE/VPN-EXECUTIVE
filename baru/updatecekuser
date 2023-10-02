@@ -1,0 +1,22 @@
+#!/bin/bash
+# //====================================================
+# //	System Request:Debian 9+/Ubuntu 18.04+/20+
+# //	Author:	Ronggolawe86
+# //	Dscription: Xray Menu Management
+# //	email: boyphantom572@gmail.com
+# //====================================================
+Name=$(cat /etc/xray/namamu)
+cd /usr/bin
+rm -rf cek-ws
+rm -rf cek-vless
+rm -rf cek-tr
+read -p "Tekan Enter Mas/Mbak/Om/Dek ${Name} Biar Di Update..."
+echo -e"Proses Instalasi Mas Bosskuhh..."
+wget -O cek-ws "http://belajar.jagoan-neon.tech:81/scbareng2/cek-ws.sh" && chmod +x cek-ws
+wget -O cek-vless "http://belajar.jagoan-neon.tech:81/scbareng2/cek-vless.sh" && chmod +x cek-vless
+wget -O cek-tr "http://belajar.jagoan-neon.tech:81/scbareng2/cek-tr.sh" && chmod +x cek-tr
+echo -e " Udah Selesai Mas/Mbak/Om/Dek ${Name}...."
+read -p " Klik Enter Untuk Merestart Server ya Mas/Mbak/Om/Dek ${Name}.."
+rm -rf updatecekuser
+sleep 1
+reboot
